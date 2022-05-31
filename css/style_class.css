@@ -1,0 +1,38 @@
+.container{
+    height: 100vh;
+    background-color: lightblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 150px 1fr;
+    grid-template-areas: 
+    "hd"
+    "sb"
+    "main"
+    "ft";
+}
+
+.header{
+    grid-area: hd;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.footer{
+    grid-area: ft;
+    font-size: 0.8em;
+}
+
+.sidebar{
+    grid-area: sb;
+    font-size: 0.8em;
+}
+
+.main{
+    grid-area: main;
+}
+
+.photoBox{
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+}

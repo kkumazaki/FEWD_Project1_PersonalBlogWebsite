@@ -47,6 +47,10 @@ button{
     text-align: center;
 }
 
+blockquote{
+    font-size: 0.9em;
+}
+
 @media (min-width: 600px){
     .container{
         display: flex;

@@ -1,0 +1,34 @@
+#box{
+    border: 2px solid black;
+}
+
+#nestedGrid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 5px;
+}
+
+#one{
+    /* background-image: url(../image/face.jpg); */
+    /* background-size: contain; */
+    /* background-repeat: no-repeat; */
+    font-size: 0.8em;
+    border: 2px solid red;
+    background-color: white;
+}
+#two{
+    background-image: url(../image/blog.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#three{
+    background-image: url(../image/udacity.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#four{
+    background-image: url(../image/google.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
